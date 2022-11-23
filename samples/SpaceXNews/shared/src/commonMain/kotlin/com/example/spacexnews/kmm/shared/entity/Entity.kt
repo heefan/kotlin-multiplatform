@@ -1,7 +1,6 @@
 package com.example.spacexnews.kmm.shared.entity
 
-import kotlinx.serialization.SerialName
-import kotlinx.serialization.Serializable
+import  kotlinx.serialization.*
 
 @kotlinx.serialization.Serializable
 data class RocketLaunch(

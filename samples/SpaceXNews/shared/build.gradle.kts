@@ -1,6 +1,6 @@
 plugins {
     kotlin("multiplatform")
-    kotlin("plugin.serialization") version "1.7.21"
+    kotlin("plugin.serialization") version "1.7.20"
     id("com.android.library")
     id("com.squareup.sqldelight")
 }
@@ -42,7 +42,13 @@ kotlin {
                 implementation(kotlin("test"))
             }
         }
-        val androidMain by getting
+        val androidMain by getting {
+            dependencies {
+                implementation("io.ktor:ktor-client-android:$ktorVersion")
+                implementation("com.squareup.sqldelight:android-driver:$sqlDelightVersion")
+            }
+
+        }
         val androidTest by getting
         val iosX64Main by getting
         val iosArm64Main by getting
@@ -72,6 +78,11 @@ android {
         minSdk = 21
         targetSdk = 32
     }
+}
+dependencies {
+    implementation("androidx.core:core-ktx:+")
+    implementation("androidx.core:core-ktx:+")
+    implementation("androidx.core:core-ktx:+")
 }
 
 sqldelight {
