@@ -47,7 +47,6 @@ kotlin {
                 implementation("io.ktor:ktor-client-android:$ktorVersion")
                 implementation("com.squareup.sqldelight:android-driver:$sqlDelightVersion")
             }
-
         }
         val androidTest by getting
 

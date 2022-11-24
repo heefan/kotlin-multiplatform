@@ -1,28 +1,30 @@
 package com.example.spacexnews.kmm.shared.entity
 
-import  kotlinx.serialization.*
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toInstant
+import kotlinx.datetime.toLocalDateTime
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
-@kotlinx.serialization.Serializable
+@Serializable
 data class RocketLaunch(
     @SerialName("flight_number")
     val flightNumber: Int,
-    @SerialName("mission_name")
+    @SerialName("name")
     val missionName: String,
-    @SerialName("launch_year")
-    val launchYear: Int,
-    @SerialName("launch_date_utc")
+    @SerialName("date_utc")
     val launchDateUTC: String,
-    @SerialName("rocket")
-    val rocket: Rocket,
     @SerialName("details")
     val details: String?,
-    @SerialName("launch_success")
+    @SerialName("success")
     val launchSuccess: Boolean?,
     @SerialName("links")
     val links: Links
-)
+) {
+    var launchYear = launchDateUTC.toInstant().toLocalDateTime(TimeZone.UTC).year
+}
 
-@kotlinx.serialization.Serializable
+@Serializable
 data class Rocket(
     @SerialName("rocket_id")
     val id: String,
@@ -32,10 +34,18 @@ data class Rocket(
     val type: String
 )
 
-@kotlinx.serialization.Serializable
+@Serializable
 data class Links(
-    @kotlinx.serialization.SerialName("mission_patch")
-    val missionPatchUrl: String?,
-    @kotlinx.serialization.SerialName("article_url")
-    val articleUrl: String?
+    @SerialName("patch")
+    val patch: Patch?,
+    @SerialName("article")
+    val article: String?
+)
+
+@Serializable
+data class Patch(
+    @SerialName("small")
+    val small: String?,
+    @SerialName("large")
+    val large: String?
 )
