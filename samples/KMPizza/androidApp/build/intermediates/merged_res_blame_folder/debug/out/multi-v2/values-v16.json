@@ -4,7 +4,7 @@
             "outputFile": "com.example.kmpizza.android.androidApp-mergeDebugResources-38:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/a58f2c5df4cf993c6962082ce2c8b51f/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/litian/.gradle/caches/transforms-3/b182bd547ab7f078819002faff56cd12/transformed/core-1.8.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

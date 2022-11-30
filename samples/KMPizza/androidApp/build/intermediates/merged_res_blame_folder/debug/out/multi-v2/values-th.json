@@ -4,24 +4,7 @@
             "outputFile": "com.example.kmpizza.android.androidApp-mergeDebugResources-38:/values-th/values-th.xml",
             "map": [
                 {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/e7768d491f7467606a7bdb8689799507/transformed/ui-1.2.1/res/values-th/values-th.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,191,268,365,466,554,639,741,827,910,975,1041,1127,1216,1289,1356",
-                        "endColumns": "85,76,96,100,87,84,101,85,82,64,65,85,88,72,66,122",
-                        "endOffsets": "186,263,360,461,549,634,736,822,905,970,1036,1122,1211,1284,1351,1474"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,191,268,365,466,554,639,741,827,910,975,1041,1127,1216,1390,1457",
-                        "endColumns": "85,76,96,100,87,84,101,85,82,64,65,85,88,72,66,122",
-                        "endOffsets": "186,263,360,461,549,634,736,822,905,970,1036,1122,1211,1284,1452,1575"
-                    }
-                },
-                {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/a58f2c5df4cf993c6962082ce2c8b51f/transformed/core-1.8.0/res/values-th/values-th.xml",
+                    "source": "/Users/litian/.gradle/caches/transforms-3/b182bd547ab7f078819002faff56cd12/transformed/core-1.8.0/res/values-th/values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,6 +18,23 @@
                         "startOffsets": "1289",
                         "endColumns": "100",
                         "endOffsets": "1385"
+                    }
+                },
+                {
+                    "source": "/Users/litian/.gradle/caches/transforms-3/3c106d92fef7ab17acf89fa607a2b1f8/transformed/ui-1.2.1/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,191,268,365,466,554,639,741,827,910,975,1041,1127,1216,1289,1356",
+                        "endColumns": "85,76,96,100,87,84,101,85,82,64,65,85,88,72,66,122",
+                        "endOffsets": "186,263,360,461,549,634,736,822,905,970,1036,1122,1211,1284,1351,1474"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,191,268,365,466,554,639,741,827,910,975,1041,1127,1216,1390,1457",
+                        "endColumns": "85,76,96,100,87,84,101,85,82,64,65,85,88,72,66,122",
+                        "endOffsets": "186,263,360,461,549,634,736,822,905,970,1036,1122,1211,1284,1452,1575"
                     }
                 }
             ]

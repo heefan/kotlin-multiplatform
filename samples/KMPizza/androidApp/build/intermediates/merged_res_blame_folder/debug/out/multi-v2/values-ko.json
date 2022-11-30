@@ -4,7 +4,7 @@
             "outputFile": "com.example.kmpizza.android.androidApp-mergeDebugResources-38:/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/a58f2c5df4cf993c6962082ce2c8b51f/transformed/core-1.8.0/res/values-ko/values-ko.xml",
+                    "source": "/Users/litian/.gradle/caches/transforms-3/b182bd547ab7f078819002faff56cd12/transformed/core-1.8.0/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/e7768d491f7467606a7bdb8689799507/transformed/ui-1.2.1/res/values-ko/values-ko.xml",
+                    "source": "/Users/litian/.gradle/caches/transforms-3/3c106d92fef7ab17acf89fa607a2b1f8/transformed/ui-1.2.1/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

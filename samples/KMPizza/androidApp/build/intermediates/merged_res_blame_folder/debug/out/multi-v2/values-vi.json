@@ -4,24 +4,7 @@
             "outputFile": "com.example.kmpizza.android.androidApp-mergeDebugResources-38:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/a58f2c5df4cf993c6962082ce2c8b51f/transformed/core-1.8.0/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1298",
-                        "endColumns": "100",
-                        "endOffsets": "1394"
-                    }
-                },
-                {
-                    "source": "/Users/litian/.gradle/caches/transforms-3/e7768d491f7467606a7bdb8689799507/transformed/ui-1.2.1/res/values-vi/values-vi.xml",
+                    "source": "/Users/litian/.gradle/caches/transforms-3/3c106d92fef7ab17acf89fa607a2b1f8/transformed/ui-1.2.1/res/values-vi/values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "55,151,237,343,443,535,620,730,824,905,975,1045,1135,1226,1399",
                         "endColumns": "95,85,105,99,91,84,109,93,80,69,69,89,90,71,65",
                         "endOffsets": "146,232,338,438,530,615,725,819,900,970,1040,1130,1221,1293,1460"
+                    }
+                },
+                {
+                    "source": "/Users/litian/.gradle/caches/transforms-3/b182bd547ab7f078819002faff56cd12/transformed/core-1.8.0/res/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1298",
+                        "endColumns": "100",
+                        "endOffsets": "1394"
                     }
                 }
             ]
